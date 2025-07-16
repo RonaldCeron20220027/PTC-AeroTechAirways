@@ -113,6 +113,16 @@ namespace formLogin.cs.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2025_07_15_190737 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2025-07-15 190737", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo {
             get {
                 object obj = ResourceManager.GetObject("Fondo", resourceCulture);
@@ -126,6 +136,36 @@ namespace formLogin.cs.Properties {
         internal static System.Drawing.Bitmap icons8_account_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-account-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_07_15_a_las_19_03_33_04c910f1 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2025-07-15 a las 19.03.33_04c910f1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_07_15_a_las_19_031 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2025-07-15 a las 19.031", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_de_WhatsApp_2025_07_15_a_las_19_032 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen de WhatsApp 2025-07-15 a las 19.032", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

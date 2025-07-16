@@ -9,7 +9,7 @@ namespace Modelo.Conexion
 {
     internal class ConexionATA
     {
-        private static string servidor = "Ro\\SQLEXPRESS";
+        private static string servidor = "LAPTOP-RGPV52QC\\SQLEXPRESS";
         private static string baseDeDatos = "aerotech_airways";
 
         public static SqlConnection Conectar()
