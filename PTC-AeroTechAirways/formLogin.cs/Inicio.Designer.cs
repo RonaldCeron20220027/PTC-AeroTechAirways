@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -55,13 +55,12 @@
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblSalida = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
@@ -78,73 +77,89 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(839, 0);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(134, 441);
+            this.panel1.Size = new System.Drawing.Size(134, 412);
             this.panel1.TabIndex = 0;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(3, 402);
+            this.btnSalir.BackColor = System.Drawing.Color.Indigo;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSalir.Location = new System.Drawing.Point(11, 372);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(110, 28);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::formLogin.cs.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, -13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(134, 114);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(21, 274);
+            this.button5.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Location = new System.Drawing.Point(21, 291);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 37);
+            this.button5.Size = new System.Drawing.Size(110, 53);
             this.button5.TabIndex = 3;
-            this.button5.Text = "Salida de vuelos";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Text = "s";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(21, 231);
+            this.button4.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(11, 259);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 37);
+            this.button4.Size = new System.Drawing.Size(110, 26);
             this.button4.TabIndex = 2;
             this.button4.Text = "Eliminacion de Pasajeros";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(21, 186);
+            this.button3.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(11, 209);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 39);
+            this.button3.Size = new System.Drawing.Size(110, 29);
             this.button3.TabIndex = 1;
             this.button3.Text = "Reservas ";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(21, 142);
+            this.button2.BackColor = System.Drawing.Color.MediumOrchid;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(11, 154);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 36);
+            this.button2.Size = new System.Drawing.Size(110, 33);
             this.button2.TabIndex = 0;
             this.button2.Text = "Agregar Pasajeros";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel1
             // 
@@ -157,7 +172,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 4);
             this.tableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(237, 19);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(215, 22);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
@@ -361,34 +376,27 @@
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(152, 165);
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 143);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(435, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(584, 172);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(33, 173);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 2;
             // 
             // groupBox1
             // 
@@ -398,12 +406,12 @@
             this.groupBox1.Controls.Add(this.tableLayoutPanel1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.lblSalida);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Location = new System.Drawing.Point(8, 12);
+            this.groupBox1.Location = new System.Drawing.Point(150, 1);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(825, 380);
+            this.groupBox1.Size = new System.Drawing.Size(804, 423);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
@@ -412,7 +420,7 @@
             this.pictureBox2.Image = global::formLogin.cs.Properties.Resources.icons8_account_50;
             this.pictureBox2.Location = new System.Drawing.Point(48, 22);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(118, 90);
+            this.pictureBox2.Size = new System.Drawing.Size(109, 105);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -451,21 +459,20 @@
             this.radioButton1.Text = "No";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // lblSalida
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(124, 270);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 18);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "label7";
+            this.lblSalida.AutoSize = true;
+            this.lblSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalida.Location = new System.Drawing.Point(124, 270);
+            this.lblSalida.Name = "lblSalida";
+            this.lblSalida.Size = new System.Drawing.Size(0, 18);
+            this.lblSalida.TabIndex = 2;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(4, 270);
+            this.label6.Location = new System.Drawing.Point(11, 270);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(107, 18);
             this.label6.TabIndex = 1;
@@ -482,13 +489,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(972, 437);
+            this.BackgroundImage = global::formLogin.cs.Properties.Resources.download;
+            this.ClientSize = new System.Drawing.Size(956, 437);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.panel1);
             this.Name = "Inicio";
             this.Text = "Inicio";
+            this.Load += new System.EventHandler(this.Inicio_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -533,11 +540,10 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblSalida;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;

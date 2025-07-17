@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|c:\\users\\ronal\\onedrive\\desktop\\ptc-aerotechairways\\ptc-aerotechairways\\formlogin.cs\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|c:\\users\\ronal\\onedrive\\desktop\\ptc-aerotechairways\\ptc-aerotechairways\\formlogin.cs\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formlogin.cs\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formlogin.cs\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formlogin.cs\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formlogin.cs\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|c:\\users\\rodri\\onedrive\\documentos\\proyecto ptc\\ptc-aerotechairways\\ptc-aerotechairways\\formlogin.cs\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|c:\\users\\rodri\\onedrive\\documentos\\proyecto ptc\\ptc-aerotechairways\\ptc-aerotechairways\\formlogin.cs\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\reservas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|c:\\users\\rodri\\onedrive\\documentos\\proyecto ptc\\ptc-aerotechairways\\ptc-aerotechairways\\formlogin.cs\\puertossalidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79C74273-4C8F-4692-8F4A-1A6DB3F7EC2E}|formLogin.cs\\formLogin.cs.csproj|solutionrelative:formlogin.cs\\puertossalidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Inicio.cs",
-              "RelativeDocumentMoniker": "formLogin.cs\\Inicio.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Inicio.cs",
-              "RelativeToolTip": "formLogin.cs\\Inicio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIAwwBUAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PuertosSalidas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\PuertosSalidas.cs",
+              "RelativeDocumentMoniker": "formLogin.cs\\PuertosSalidas.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\PuertosSalidas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "formLogin.cs\\PuertosSalidas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T03:38:41.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Login.cs",
-              "RelativeDocumentMoniker": "formLogin.cs\\Login.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "formLogin.cs\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T18:03:31.116Z",
+              "WhenOpened": "2025-07-16T01:20:52.941Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Reservas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Reservas.cs",
+              "Title": "Reservas.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Reservas.cs",
               "RelativeDocumentMoniker": "formLogin.cs\\Reservas.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Reservas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "formLogin.cs\\Reservas.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Reservas.cs",
+              "RelativeToolTip": "formLogin.cs\\Reservas.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAywBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:13:07.726Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-16T21:07:29.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Login.cs",
+              "RelativeDocumentMoniker": "formLogin.cs\\Login.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "formLogin.cs\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T20:29:53.239Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Inicio.cs",
               "RelativeDocumentMoniker": "formLogin.cs\\Inicio.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Inicio.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Inicio.cs [Dise\u00F1o]",
               "RelativeToolTip": "formLogin.cs\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-11T19:14:08.498Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Reservas.cs",
+              "RelativeDocumentMoniker": "formLogin.cs\\Reservas.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documentos\\Proyecto ptc\\PTC-AeroTechAirways\\PTC-AeroTechAirways\\formLogin.cs\\Reservas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "formLogin.cs\\Reservas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T23:13:07.726Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

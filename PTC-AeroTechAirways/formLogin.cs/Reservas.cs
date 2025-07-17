@@ -17,6 +17,14 @@ namespace formLogin.cs
             InitializeComponent();
         }
 
-        
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

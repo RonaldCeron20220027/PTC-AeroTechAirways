@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +43,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::formLogin.cs.Properties.Resources.logo1;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Image = global::formLogin.cs.Properties.Resources.Adobe_Express___file__1_;
             this.pictureBox1.Location = new System.Drawing.Point(411, 31);
             this.pictureBox1.Name = "pictureBox1";
@@ -110,7 +111,7 @@
             this.groupBox1.Controls.Add(this.txtuser);
             this.groupBox1.Controls.Add(this.btnIniciar);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(301, 110);
+            this.groupBox1.Location = new System.Drawing.Point(287, 99);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(291, 327);
             this.groupBox1.TabIndex = 20;

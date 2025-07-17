@@ -21,5 +21,20 @@ namespace formLogin.cs
         {
             Environment.Exit(0);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,13 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reservas));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,91 +48,19 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(-2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(153, 441);
-            this.panel1.TabIndex = 1;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(56)))), ((int)(((byte)(166)))));
-            this.button6.ForeColor = System.Drawing.SystemColors.Control;
-            this.button6.Location = new System.Drawing.Point(3, 387);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Salir";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::formLogin.cs.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(138, 114);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
-            this.button5.ForeColor = System.Drawing.SystemColors.Control;
-            this.button5.Location = new System.Drawing.Point(21, 312);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 37);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Salida de vuelos";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
-            this.button4.ForeColor = System.Drawing.SystemColors.Control;
-            this.button4.Location = new System.Drawing.Point(21, 255);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 37);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Eliminacion de Pasajeros";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
-            this.button3.ForeColor = System.Drawing.SystemColors.Control;
-            this.button3.Location = new System.Drawing.Point(21, 193);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 39);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Reservas ";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(21, 142);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 36);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Agregar Pasajeros";
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -183,7 +105,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(126, 18);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Agregar aciento";
+            this.label6.Text = "Agregar asiento";
             // 
             // button7
             // 
@@ -336,7 +258,8 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 18);
             this.label7.TabIndex = 4;
-            this.label7.Text = "Acientos del avion";
+            this.label7.Text = "Asientos del avión";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -361,6 +284,86 @@
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 6;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(14, 120);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(102, 58);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Agregar Pasajeros";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
+            this.button3.ForeColor = System.Drawing.SystemColors.Control;
+            this.button3.Location = new System.Drawing.Point(14, 184);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(102, 48);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Reservas ";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
+            this.button4.ForeColor = System.Drawing.SystemColors.Control;
+            this.button4.Location = new System.Drawing.Point(14, 238);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(102, 52);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Eliminacion de Pasajeros";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(69)))), ((int)(((byte)(159)))));
+            this.button5.ForeColor = System.Drawing.SystemColors.Control;
+            this.button5.Location = new System.Drawing.Point(14, 296);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(102, 54);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Salida de vuelos";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(138, 114);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Location = new System.Drawing.Point(-2, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(153, 441);
+            this.panel1.TabIndex = 1;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(56)))), ((int)(((byte)(166)))));
+            this.button6.ForeColor = System.Drawing.SystemColors.Control;
+            this.button6.Location = new System.Drawing.Point(14, 356);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(102, 43);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "Salir";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Reservas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -375,26 +378,18 @@
             this.Controls.Add(this.panel1);
             this.Name = "Reservas";
             this.Text = "Reservas";
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
@@ -414,5 +409,12 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button6;
     }
 }
